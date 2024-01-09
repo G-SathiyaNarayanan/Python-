@@ -1,8 +1,16 @@
-This is my small project that I learned from YouTuber Jenny's lecture. It uses the random module and for loop concepts as
-Method 1, but we can simplify this project by adding other conditions. 
-That's why I've included the Chat GPT code as Method 2
+'''
+The 1st  method  based on only for loop and random functions but 2nd method by chat GPT use some other functions also so that it looks pretty than my code.
+* I done this base upon learning of only for loop and Random Function *
 
-Method 1(Jenny’s Lecture):
+Project Description:
+Explanation:
+1.	Here I made the letters, symbols and numbers as string so that the program won’t be complicated.
+2.	I created an empty list to add what are all we get that in I,j,k loops, its just like password =0 that 
+we use int variables on loops but 1st we make empty string only like password= ’’ , we need to show that 
+random generated password with shuffle is better then random generated password so we need list 
+3.	After that we need the password as proper string, to convert it into string again I use L loop at last. '''
+
+#Method 1(Jenny’s Lecture):
 
 import random
 
@@ -44,15 +52,10 @@ for l in password:
   
 print(password_str)
 
-Explanation:
-1.	Here I made the letters, symbols and numbers as string so that the program won’t be complicated.
-2.	I created an empty list to add what are all we get that in I,j,k loops, its just like password =0 that 
-we use int variables on loops but 1st we make empty string only like password= ’’ , we need to show that 
-random generated password with shuffle is better then random generated password so we need list 
-3.	After that we need the password as proper string, to convert it into string again I use L loop at last.
 
 
-Method 2(Chat GPT):
+
+#Method 2(Chat GPT):
 
 import random
 import string
