@@ -1,14 +1,11 @@
-This is my small project that I learned from YouTuber Jenny's lecture. It uses the random module and if concepts as
-Method 1, but we can simplify this project by adding other conditions. 
-That's why I've included the Chat GPT code as Method 2
-
-'''The 1st  method uses only if, elif and random functions but 2nd method by chat GPT use some other functions also so that it looks pretty than my code.
-I done this base upon learning of only While loop and Random Function
+'''
+The 1st  method uses only if, elif and random functions but 2nd method by chat GPT use some other functions also so that it looks pretty than my code.
+I done this base upon learning of only IF and Random Function
 
 Project Description:
 Playing Stone, paper Sicssor game with Computer '''
 
-Method 1(Jenny’s Lecture):
+#Method 1(Jenny’s Lecture):
 
 import random
 
@@ -36,10 +33,10 @@ else:
     print("You Lose")
   elif user_input > computer_choice:
     print("You Win")
-This method uses only if, if-else and random functions but chat GPT use some other functions also so that it looks pretty than my code.
-I done this base upon learning of only IF and Random Function
 
-Method 2(Chat GPT):
+
+
+#Method 2(Chat GPT):
 
 import random
 
