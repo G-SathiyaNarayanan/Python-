@@ -1,10 +1,10 @@
 '''The 1st  method uses only if, if-else, for, while loops and random functions but 2nd method by chat GPT use some other functions also so that it looks pretty than my code.
-I done this base upon learning of only While loop and Random Function
+* I done this base upon learning of mainly on While loop and Random Function *
 
 Project Description:
 Guessing a word letter by letter '''
 
-#Method 1
+#Method 1(Jenny’s Lecture):
 import random
 
 list=["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
@@ -32,7 +32,6 @@ while not game_over:
   if "_" not in display:
     game_over=True
     print("You Win")
-
 
 #Method 2(Chat GPT):
 
