@@ -5,7 +5,10 @@ Project Description:
 eg: input is "hello" and 3 
     output is khoor
 means, in 25 alphabet (count from 0 to 25 like index)so H index is 7, 7 + input 3 = 10, 10 is K in Alphabet (start of output).
-like this need to print for all alphabet in input'''
+like this need to print for all alphabet in input
+
+#this mod 26 is like eg: message: jenny key: 3, y index 24 z is 25 after no words will geterror
+# to solve this Mod % --> eg: 24(y) % 26 is 2, 2 is b so probelem solved,y + 2 =b(crossinz,a) '''
 
 #Method 1(Jenny’s Lecture):
 
