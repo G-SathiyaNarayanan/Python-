@@ -14,18 +14,24 @@ alphabet=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r
 def encryption(plain_text,shift_key):
   cipher=""
   for i in plain_text:
-    position = alphabet.index(i)
-    new_position=(position+shift_key)%26 
-    cipher+=alphabet[new_position]            
+    if i in alphabet:
+      position = alphabet.index(i)
+      new_position=(position+shift_key)%26 
+      cipher+=alphabet[new_position]
+    else:
+      cipher+=i
   print(cipher)
   print()
 
 def decryption(cipher_text,shift_key):
   plain=""
   for i in text:
-    position = alphabet.index(i)
-    new_position=(position-shift_key)%26 
-    plain+=alphabet[new_position]            
+    if i in text:
+      position = alphabet.index(i)
+      new_position=(position-shift_key)%26 
+      plain+=alphabet[new_position]
+    else:
+      plain+=i             
   print(plain)
   print()
 a= False
@@ -40,7 +46,7 @@ while not a:
     encryption(plain_text=text,shift_key=shift)
   elif process == "decrypt": 
     decryption(cipher_text=text,shift_key=shift)
-    
+
   play_again=input("Play again Yes or No: ")
   print()
   if play_again == 'no':
