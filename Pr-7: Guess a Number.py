@@ -1,4 +1,4 @@
-'''The 1st  method uses only recursion function, if, while loops but 2nd method by chat GPT use some other functions also so that it looks pretty than my code.
+'''The 1st method uses only recursion function, if, while loops but 2nd method by chat GPT use some other functions also so that it looks pretty than my code.
 * I done this base upon learning of mainly on function and recursion function, means we created the some function and calling that function in last *
 
 Project Description:
