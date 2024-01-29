@@ -1,4 +1,4 @@
-'''The 1st  method uses only functions, if, for, while loops and random functions but 2nd method by chat GPT use some other functions also so that it looks pretty than my code.
+'''The 1st method uses only functions, if, for, while loops and random functions but 2nd method by chat GPT use some other functions also so that it looks pretty than my code.
 * I done this base upon learning of mainly on functions *
 
 Project Description:
